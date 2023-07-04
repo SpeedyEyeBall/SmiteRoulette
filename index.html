@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smite Roulette</title>
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <header class="header-main">Smite Roulette</header>
+        <main>
+            <textarea disabled class="strategy"></textarea>
+            
+            <button class="reroll">Reroll</button>
+        </main>
+
+        <script src="./strats.js"></script>
+        <script>
+            function generateStrat(stratNum) {
+                var strat = strats.find((t) => t.id == stratNum);
+
+                var txt = document.querySelector(".strategy");
+                txt.value = strat.text;
+            }
+
+            var btn = document.querySelector(".reroll");
+            btn.addEventListener("click", function () {
+                generateStrat(Math.floor(Math.random() * strats.length));
+            });
+
+            generateStrat(Math.floor(Math.random() * strats.length));
+        </script>
+    </body>
+</html>

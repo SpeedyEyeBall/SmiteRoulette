@@ -1,0 +1,78 @@
+.reroll {
+    background-color: rgb(16, 51, 104);
+    color: white;
+    padding: 4px 8px;
+    font-size: 25px;
+    border-style: none;
+    border-radius: 6px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+.reroll:hover {
+    background-color: rgba(16, 51, 104, 0.616);
+}
+
+
+.strategy {
+    margin-top: 20px;
+    background-color: rgb(40, 40, 40);
+    border-style: none;
+    resize: none;
+    width: 50vw;
+    height: 100px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    word-wrap: break-word;
+}
+
+.header-main{
+    background-color: rgb(16, 51, 104);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+    border-bottom: solid;
+    border-bottom-color: rgba(10, 10, 10, 0.2);
+    border-bottom-width: -2px;
+    font-size: 35px;
+}
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding-top: 50px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 
+        system-ui,
+        -apple-system, 
+        BlinkMacSystemFont, 
+        'Segoe UI', 
+        Roboto, 
+        Oxygen, 
+        Ubuntu, 
+        Cantarell, 
+        'Open Sans', 
+        'Helvetica Neue', 
+        sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
