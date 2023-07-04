@@ -58,6 +58,26 @@ var strats = [
     {
         id: 14,
         text: "Profit Share: Everyone must vehemently attempt to steal kills.",
+    },
+    {
+        id: 15,
+        text: "Tierlist: You may only build T1 items unitl your inventory is full. Then you may upgrade them all to T2 and then T3.",
+    },
+    {
+        id: 16,
+        text: "Pantheon Party: Choose a pantheon and everyone must choose a god from that pantheon.",
+    },
+    {
+        id: 17,
+        text: "Zootopia: Everyone must be an animal god.",
+    },
+    {
+        id: 18,
+        text: "RIP Bozo: When you kill an enemy you must type 'RIP [Godname]' before you continue playing.",
+    },
+    {
+        id: 19,
+        text: "Double Jungle: Two junglers, one on each side of the map.",
     }
 
 ];
