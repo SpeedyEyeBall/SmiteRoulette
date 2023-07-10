@@ -1,11 +1,11 @@
 var strats = [
     {
         id: 0,
-        text: "Who's main?: Play the most played god of the player above you.",
+        text: "Who's Main?: Play the most played god of the player above you.",
     },
     {
         id: 1,
-        text: "Who's lame?: Play your least worshipped god.",
+        text: "Who's Lame?: Play your least worshipped god.",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ var strats = [
     },
     {
         id: 3,
-        text: "Never saw em cumming: Play all stealth gods.",
+        text: "Never saw em Cumming: Play all stealth gods.",
     },
     {
         id: 4,
