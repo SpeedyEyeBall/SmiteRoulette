@@ -1,23 +1,23 @@
 var strats = [
     {
         id: 0,
-        text: "Play a team of all guardians.",
+        text: "Who's main?: Play the most played god of the player above you.",
     },
     {
         id: 1,
-        text: "Play a team of all warriors.",
+        text: "Who's lame?: Play your least worshipped god.",
     },
     {
         id: 2,
-        text: "Play a team of all mages.",
+        text: "Track Team: Everyone has to get heavenly wings.",
     },
     {
         id: 3,
-        text: "Play a team of all assasins.",
+        text: "Never saw em cumming: Play all stealth gods.",
     },
     {
         id: 4,
-        text: "Play a team of all hunters.",
+        text: "The Sound of Silence: Play all gods with a silence.",
     },
     {
         id: 5,
