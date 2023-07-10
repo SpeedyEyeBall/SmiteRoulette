@@ -78,6 +78,10 @@ var strats = [
     {
         id: 19,
         text: "Double Jungle: Two junglers, one on each side of the map.",
+    },
+    {
+        id: 20,
+        text: "Smite.mp3: When you use an ability, you must immitate the sound effect.",
     }
 
 ];
