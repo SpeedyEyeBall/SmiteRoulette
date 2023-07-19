@@ -82,6 +82,10 @@ var strats = [
     {
         id: 20,
         text: "Smite.mp3: When you use an ability, you must immitate the sound effect.",
+    },
+    {
+        id: 21,
+        text: "Sanic Fast: Movement speed items only."
     }
 
 ];
